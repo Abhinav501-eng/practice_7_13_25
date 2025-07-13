@@ -1,0 +1,8 @@
+pipeline{
+    stages{
+        stage('Print hello word')
+        {
+            steps(echo'Hello Word')
+        }
+    }
+}
